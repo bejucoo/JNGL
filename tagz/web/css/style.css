@@ -1,0 +1,129 @@
+/* MAIN */
+html, body {
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+
+/* CANVAS */
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tag, #noise {
+  width: 800px;
+  height: 800px;
+}
+
+
+/* TOP BAR */
+.top_bar {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 7vh;
+  background-color: white;
+  margin: 0 0 0 0;
+  border-bottom: 1px solid Gray;  
+}
+
+#menu_logo {
+  height: 45px;
+  cursor:pointer;
+  transition: opacity .2s linear;
+  opacity: 0.7;
+}
+
+#menu_logo:hover {
+  opacity: 1;
+}
+
+
+/* INFORMATION AND INSTRUCTIONS*/
+#info {
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	margin: 0% auto;
+	padding: 0 0 0 18%;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+	padding: 15px 0 15px 0;
+}
+
+#menu_open, #menu_close{
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  bottom: 0;
+  width: 100vw;
+  height: 5vh;
+	background-color: white;
+	margin: 0 0 0 0;
+	border-top: 1px solid Gray;
+}
+
+
+/* FONTS AND TEXT */
+@font-face {
+	font-family: 'fivo_sans_modernbold';
+	src: url('fonts/fivosansmodern-bold-webfont.woff2') format('woff2'), url('./fonts/fivosansmodern-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'fivo_sans_modernregular';
+	src: url('./fonts/fivosansmodern-regular-webfont.woff2') format('woff2'), url('./fonts/fivosansmodern-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
+	font-family: 'fivo_sans_modernregular';
+	font-size: 13px;
+	margin: 0;
+}
+
+a {
+	font-family: 'fivo_sans_modernregular';
+	font-size: 13px;
+}
+
+a.link_normal:link {
+	transition: color .2s linear;
+	color: #555555;
+	text-decoration: none;
+}
+
+a.link_normal:visited {
+	color: #555555;
+	text-decoration: none;
+}
+
+a.link_normal:hover {
+	color: black;
+	text-decoration: underline;
+}

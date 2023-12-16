@@ -1,0 +1,102 @@
+<!-- GLYPHZ v0.4 BY BEJUCO @ 2022 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bejuco | glyphz 0.4</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/pushbar.min.css">
+	<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/svg.min.js"></script>
+	<script src="./js/jszip.min.js"></script>
+	<script src="./js/FileSaver.min.js"></script>
+	<script src="./js/pushbar.min.js"></script>
+</head>
+<body id="body">
+	<div class="top_bar">
+		<a href="https://bejuco.co/" target="_blank" rel="noopener noreferrer">
+			<img id="menu_logo" src="./img/logo.png" alt="bejuco_logo" title="bejuco.co">
+		</a>
+	</div>
+	
+	<main class="main_container">
+		<div class="canvas_options">
+			<div id="canvas_create_download">
+				<div id="canvas"></div>
+				
+				<div id="create_download">
+					<div id=create>
+						<button class="boton" id="create_button" type="button" title="Create">
+							<img class="button_icon" src="./img/cached-white-48dp.svg">
+						</button>
+					</div>
+					
+					<div id="download">
+						<button class="boton" id="download_button" type="button" title="Download">
+							<img class="button_icon" src="./img/save_alt-white-48dp.svg">
+						</button>
+						<form class="number_form" id="download_amount">
+							<input type="number" min="1" max="1000" name="Amount" value="1" id="amount_number">
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<div id="options">
+				<p>UNICODE BLOCKS:</p>
+				<div id="blocks"></div>
+				
+				<div id="fonts">
+					<p>FONTS:</p>
+					<form class="select">
+						<select id="font_selection" name="Font">
+							<option value="unifont">GNU Unifont</option>
+							<option value="arial-unicode">Arial Unicode MS</option>
+							<option value="Noto Sans">Noto Sans</option>
+							<option value="Noto Serif">Noto Serif</option>
+						</select>
+					</form>
+				</div>
+				
+				<div id="transformations">
+					<form class="slider">
+						<label for="Rotation">ROTATION</label><br>
+						<input type="range" id="rotation_graf" name="Rotation" min="0" max="360" value="0">
+					</form>
+					<form class="slider">
+						<label for="Scale">SCALE</label><br>
+						<input type="range" id="scale_graf" name="Scale" min="0.4" max="1" step="0.01" value="0.8">
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<div id="menu" data-pushbar-id="mypushbar1" data-pushbar-direction="bottom">
+		<p>
+			GLYPHZ v0.4
+			<br><br>
+			<a class="link_normal" href="./LICENSE.md">LICENSE</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="link_normal" href="https://github.com/bejucoo/JNGL">GITHUB</a>
+			<br><br><br>	
+			INSTRUCTIONS:
+			<br><br>
+			1. Select one or multiple Unicode blocks from the list.
+			<br>
+			2. Select a font from the drop-down list.
+			<br>
+			3. Click the 🗘 button to create a new glyph.
+			<br>
+			4. Adjust rotation and scale as desired.
+			<br><br>
+			To download enter the amount of glyphs you want and click the 🡳 button.			
+		</p>
+	</div>
+	
+	<footer class="pushbar_main_content"> 
+		<p id="menu_open" data-pushbar-target="mypushbar1">INFO AND INSTRUCTIONS</p>
+	</footer>
+	<script src="./glyphz_04.js"></script>
+</body>
+</html>

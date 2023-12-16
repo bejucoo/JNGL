@@ -1,0 +1,980 @@
+[
+  {
+    "first": "0x0000",
+    "last": "0x007F",
+    "name": "Basic Latin",
+    "id": "basic_latin"
+  },
+  {
+    "first": "0x0080",
+    "last": "0x00FF",
+    "name": "Latin-1 Supplement",
+    "id": "latin_1_supplement"
+  },
+  {
+    "first": "0x0100",
+    "last": "0x017F",
+    "name": "Latin Extended-A",
+    "id": "latin_extended_a"
+  },
+  {
+    "first": "0x0180",
+    "last": "0x024F",
+    "name": "Latin Extended-B",
+    "id": "latin_extended_b"
+  },
+  {
+    "first": "0x0250",
+    "last": "0x02AF",
+    "name": "IPA Extensions",
+    "id": "ipa_extensions"
+  },
+  {
+    "first": "0x02B0",
+    "last": "0x02FF",
+    "name": "Spacing Modifier Letters",
+    "id": "spacing_modifier_letters"
+  },
+  {
+    "first": "0x0300",
+    "last": "0x036F",
+    "name": "Combining Diacritical Marks",
+    "id": "combining_diacritical_marks"
+  },
+  {
+    "first": "0x0370",
+    "last": "0x03FF",
+    "name": "Greek and Coptic",
+    "id": "greek_and_coptic"
+  },
+  {
+    "first": "0x0400",
+    "last": "0x04FF",
+    "name": "Cyrillic",
+    "id": "cyrillic"
+  },
+  {
+    "first": "0x0500",
+    "last": "0x052F",
+    "name": "Cyrillic Supplement",
+    "id": "cyrillic_supplement"
+  },
+  {
+    "first": "0x0530",
+    "last": "0x058F",
+    "name": "Armenian",
+    "id": "armenian"
+  },
+  {
+    "first": "0x0590",
+    "last": "0x05FF",
+    "name": "Hebrew",
+    "id": "hebrew"
+  },
+  {
+    "first": "0x0600",
+    "last": "0x06FF",
+    "name": "Arabic",
+    "id": "arabic"
+  },
+  {
+    "first": "0x0700",
+    "last": "0x074F",
+    "name": "Syriac",
+    "id": "syriac"
+  },
+  {
+    "first": "0x0750",
+    "last": "0x077F",
+    "name": "Arabic Supplement",
+    "id": "arabic_supplement"
+  },
+  {
+    "first": "0x0780",
+    "last": "0x07BF",
+    "name": "Thaana",
+    "id": "thaana"
+  },
+  {
+    "first": "0x07C0",
+    "last": "0x07FF",
+    "name": "NKo",
+    "id": "nko"
+  },
+  {
+    "first": "0x0800",
+    "last": "0x083F",
+    "name": "Samaritan",
+    "id": "samaritan"
+  },
+  {
+    "first": "0x0840",
+    "last": "0x085F",
+    "name": "Mandaic",
+    "id": "mandaic"
+  },
+  {
+    "first": "0x0860",
+    "last": "0x086F",
+    "name": "Syriac Supplement",
+    "id": "syriac_supplement"
+  },
+  {
+    "first": "0x08A0",
+    "last": "0x08FF",
+    "name": "Arabic Extended-A",
+    "id": "arabic_extended_a"
+  },
+  {
+    "first": "0x0900",
+    "last": "0x097F",
+    "name": "Devanagari",
+    "id": "devanagari"
+  },
+  {
+    "first": "0x0980",
+    "last": "0x09FF",
+    "name": "Bengali",
+    "id": "bengali"
+  },
+  {
+    "first": "0x0A00",
+    "last": "0x0A7F",
+    "name": "Gurmukhi",
+    "id": "gurmukhi"
+  },
+  {
+    "first": "0x0A80",
+    "last": "0x0AFF",
+    "name": "Gujarati",
+    "id": "gujarati"
+  },
+  {
+    "first": "0x0B00",
+    "last": "0x0B7F",
+    "name": "Oriya",
+    "id": "oriya"
+  },
+  {
+    "first": "0x0B80",
+    "last": "0x0BFF",
+    "name": "Tamil",
+    "id": "tamil"
+  },
+  {
+    "first": "0x0C00",
+    "last": "0x0C7F",
+    "name": "Telugu",
+    "id": "telugu"
+  },
+  {
+    "first": "0x0C80",
+    "last": "0x0CFF",
+    "name": "Kannada",
+    "id": "kannada"
+  },
+  {
+    "first": "0x0D00",
+    "last": "0x0D7F",
+    "name": "Malayalam",
+    "id": "malayalam"
+  },
+  {
+    "first": "0x0D80",
+    "last": "0x0DFF",
+    "name": "Sinhala",
+    "id": "sinhala"
+  },
+  {
+    "first": "0x0E00",
+    "last": "0x0E7F",
+    "name": "Thai",
+    "id": "thai"
+  },
+  {
+    "first": "0x0E80",
+    "last": "0x0EFF",
+    "name": "Lao",
+    "id": "lao"
+  },
+  {
+    "first": "0x0F00",
+    "last": "0x0FFF",
+    "name": "Tibetan",
+    "id": "tibetan"
+  },
+  {
+    "first": "0x1000",
+    "last": "0x109F",
+    "name": "Myanmar",
+    "id": "myanmar"
+  },
+  {
+    "first": "0x10A0",
+    "last": "0x10FF",
+    "name": "Georgian",
+    "id": "georgian"
+  },
+  {
+    "first": "0x1100",
+    "last": "0x11FF",
+    "name": "Hangul Jamo",
+    "id": "hangul_jamo"
+  },
+  {
+    "first": "0x1200",
+    "last": "0x137F",
+    "name": "Ethiopic",
+    "id": "ethiopic"
+  },
+  {
+    "first": "0x1380",
+    "last": "0x139F",
+    "name": "Ethiopic Supplement",
+    "id": "ethiopic_supplement"
+  },
+  {
+    "first": "0x13A0",
+    "last": "0x13FF",
+    "name": "Cherokee",
+    "id": "cherokee"
+  },
+  {
+    "first": "0x1400",
+    "last": "0x167F",
+    "name": "Unified Canadian Aboriginal Syllabics",
+    "id": "unified_canadian_aboriginal_syllabics"
+  },
+  {
+    "first": "0x1680",
+    "last": "0x169F",
+    "name": "Ogham",
+    "id": "ogham"
+  },
+  {
+    "first": "0x16A0",
+    "last": "0x16FF",
+    "name": "Runic",
+    "id": "runic"
+  },
+  {
+    "first": "0x1700",
+    "last": "0x171F",
+    "name": "Tagalog",
+    "id": "tagalog"
+  },
+  {
+    "first": "0x1720",
+    "last": "0x173F",
+    "name": "Hanunoo",
+    "id": "hanunoo"
+  },
+  {
+    "first": "0x1740",
+    "last": "0x175F",
+    "name": "Buhid",
+    "id": "buhid"
+  },
+  {
+    "first": "0x1760",
+    "last": "0x177F",
+    "name": "Tagbanwa",
+    "id": "tagbanwa"
+  },
+  {
+    "first": "0x1780",
+    "last": "0x17FF",
+    "name": "Khmer",
+    "id": "khmer"
+  },
+  {
+    "first": "0x1800",
+    "last": "0x18AF",
+    "name": "Mongolian",
+    "id": "mongolian"
+  },
+  {
+    "first": "0x18B0",
+    "last": "0x18FF",
+    "name": "Unified Canadian Aboriginal Syllabics Extended",
+    "id": "unified_canadian_aboriginal_syllabics_extended"
+  },
+  {
+    "first": "0x1900",
+    "last": "0x194F",
+    "name": "Limbu",
+    "id": "limbu"
+  },
+  {
+    "first": "0x1950",
+    "last": "0x197F",
+    "name": "Tai Le",
+    "id": "tai_le"
+  },
+  {
+    "first": "0x1980",
+    "last": "0x19DF",
+    "name": "New Tai Lue",
+    "id": "new_tai_lue"
+  },
+  {
+    "first": "0x19E0",
+    "last": "0x19FF",
+    "name": "Khmer Symbols",
+    "id": "khmer_symbols"
+  },
+  {
+    "first": "0x1A00",
+    "last": "0x1A1F",
+    "name": "Buginese",
+    "id": "buginese"
+  },
+  {
+    "first": "0x1A20",
+    "last": "0x1AAF",
+    "name": "Tai Tham",
+    "id": "tai_tham"
+  },
+  {
+    "first": "0x1AB0",
+    "last": "0x1AFF",
+    "name": "Combining Diacritical Marks Extended",
+    "id": "combining_diacritical_marks_extended"
+  },
+  {
+    "first": "0x1B00",
+    "last": "0x1B7F",
+    "name": "Balinese",
+    "id": "balinese"
+  },
+  {
+    "first": "0x1B80",
+    "last": "0x1BBF",
+    "name": "Sundanese",
+    "id": "sundanese"
+  },
+  {
+    "first": "0x1BC0",
+    "last": "0x1BFF",
+    "name": "Batak",
+    "id": "batak"
+  },
+  {
+    "first": "0x1C00",
+    "last": "0x1C4F",
+    "name": "Lepcha",
+    "id": "lepcha"
+  },
+  {
+    "first": "0x1C50",
+    "last": "0x1C7F",
+    "name": "Ol Chiki",
+    "id": "ol_chiki"
+  },
+  {
+    "first": "0x1C80",
+    "last": "0x1C8F",
+    "name": "Cyrillic Extended-C",
+    "id": "cyrillic_extended_c"
+  },
+  {
+    "first": "0x1C90",
+    "last": "0x1CBF",
+    "name": "Georgian Extended",
+    "id": "georgian_extended"
+  },
+  {
+    "first": "0x1CC0",
+    "last": "0x1CCF",
+    "name": "Sundanese Supplement",
+    "id": "sundanese_supplement"
+  },
+  {
+    "first": "0x1CD0",
+    "last": "0x1CFF",
+    "name": "Vedic Extensions",
+    "id": "vedic_extensions"
+  },
+  {
+    "first": "0x1D00",
+    "last": "0x1D7F",
+    "name": "Phonetic Extensions",
+    "id": "phonetic_extensions"
+  },
+  {
+    "first": "0x1D80",
+    "last": "0x1DBF",
+    "name": "Phonetic Extensions Supplement",
+    "id": "phonetic_extensions_supplement"
+  },
+  {
+    "first": "0x1DC0",
+    "last": "0x1DFF",
+    "name": "Combining Diacritical Marks Supplement",
+    "id": "combining_diacritical_marks_supplement"
+  },
+  {
+    "first": "0x1E00",
+    "last": "0x1EFF",
+    "name": "Latin Extended Additional",
+    "id": "latin_extended_additional"
+  },
+  {
+    "first": "0x1F00",
+    "last": "0x1FFF",
+    "name": "Greek Extended",
+    "id": "greek_extended"
+  },
+  {
+    "first": "0x2000",
+    "last": "0x206F",
+    "name": "General Punctuation",
+    "id": "general_punctuation"
+  },
+  {
+    "first": "0x2070",
+    "last": "0x209F",
+    "name": "Superscripts and Subscripts",
+    "id": "superscripts_and_subscripts"
+  },
+  {
+    "first": "0x20A0",
+    "last": "0x20CF",
+    "name": "Currency Symbols",
+    "id": "currency_symbols"
+  },
+  {
+    "first": "0x20D0",
+    "last": "0x20FF",
+    "name": "Combining Diacritical Marks for Symbols",
+    "id": "combining_diacritical_marks_for_symbols"
+  },
+  {
+    "first": "0x2100",
+    "last": "0x214F",
+    "name": "Letterlike Symbols",
+    "id": "letterlike_symbols"
+  },
+  {
+    "first": "0x2150",
+    "last": "0x218F",
+    "name": "Number Forms",
+    "id": "number_forms"
+  },
+  {
+    "first": "0x2190",
+    "last": "0x21FF",
+    "name": "Arrows",
+    "id": "arrows"
+  },
+  {
+    "first": "0x2200",
+    "last": "0x22FF",
+    "name": "Mathematical Operators",
+    "id": "mathematical_operators"
+  },
+  {
+    "first": "0x2300",
+    "last": "0x23FF",
+    "name": "Miscellaneous Technical",
+    "id": "miscellaneous_technical"
+  },
+  {
+    "first": "0x2400",
+    "last": "0x243F",
+    "name": "Control Pictures",
+    "id": "control_pictures"
+  },
+  {
+    "first": "0x2440",
+    "last": "0x245F",
+    "name": "Optical Character Recognition",
+    "id": "optical_character_recognition"
+  },
+  {
+    "first": "0x2460",
+    "last": "0x24FF",
+    "name": "Enclosed Alphanumerics",
+    "id": "enclosed_alphanumerics"
+  },
+  {
+    "first": "0x2500",
+    "last": "0x257F",
+    "name": "Box Drawing",
+    "id": "box_drawing"
+  },
+  {
+    "first": "0x2580",
+    "last": "0x259F",
+    "name": "Block Elements",
+    "id": "block_elements"
+  },
+  {
+    "first": "0x25A0",
+    "last": "0x25FF",
+    "name": "Geometric Shapes",
+    "id": "geometric_shapes"
+  },
+  {
+    "first": "0x2600",
+    "last": "0x26FF",
+    "name": "Miscellaneous Symbols",
+    "id": "miscellaneous_symbols"
+  },
+  {
+    "first": "0x2700",
+    "last": "0x27BF",
+    "name": "Dingbats",
+    "id": "dingbats"
+  },
+  {
+    "first": "0x27C0",
+    "last": "0x27EF",
+    "name": "Miscellaneous Mathematical Symbols-A",
+    "id": "miscellaneous_mathematical_symbols_a"
+  },
+  {
+    "first": "0x27F0",
+    "last": "0x27FF",
+    "name": "Supplemental Arrows-A",
+    "id": "supplemental_arrows_a"
+  },
+  {
+    "first": "0x2800",
+    "last": "0x28FF",
+    "name": "Braille Patterns",
+    "id": "braille_patterns"
+  },
+  {
+    "first": "0x2900",
+    "last": "0x297F",
+    "name": "Supplemental Arrows-B",
+    "id": "supplemental_arrows_b"
+  },
+  {
+    "first": "0x2980",
+    "last": "0x29FF",
+    "name": "Miscellaneous Mathematical Symbols-B",
+    "id": "miscellaneous_mathematical_symbols_b"
+  },
+  {
+    "first": "0x2A00",
+    "last": "0x2AFF",
+    "name": "Supplemental Mathematical Operators",
+    "id": "supplemental_mathematical_operators"
+  },
+  {
+    "first": "0x2B00",
+    "last": "0x2BFF",
+    "name": "Miscellaneous Symbols and Arrows",
+    "id": "miscellaneous_symbols_and_arrows"
+  },
+  {
+    "first": "0x2C00",
+    "last": "0x2C5F",
+    "name": "Glagolitic",
+    "id": "glagolitic"
+  },
+  {
+    "first": "0x2C60",
+    "last": "0x2C7F",
+    "name": "Latin Extended-C",
+    "id": "latin_extended_c"
+  },
+  {
+    "first": "0x2C80",
+    "last": "0x2CFF",
+    "name": "Coptic",
+    "id": "coptic"
+  },
+  {
+    "first": "0x2D00",
+    "last": "0x2D2F",
+    "name": "Georgian Supplement",
+    "id": "georgian_supplement"
+  },
+  {
+    "first": "0x2D30",
+    "last": "0x2D7F",
+    "name": "Tifinagh",
+    "id": "tifinagh"
+  },
+  {
+    "first": "0x2D80",
+    "last": "0x2DDF",
+    "name": "Ethiopic Extended",
+    "id": "ethiopic_extended"
+  },
+  {
+    "first": "0x2DE0",
+    "last": "0x2DFF",
+    "name": "Cyrillic Extended-A",
+    "id": "cyrillic_extended_a"
+  },
+  {
+    "first": "0x2E00",
+    "last": "0x2E7F",
+    "name": "Supplemental Punctuation",
+    "id": "supplemental_punctuation"
+  },
+  {
+    "first": "0x2E80",
+    "last": "0x2EFF",
+    "name": "CJK Radicals Supplement",
+    "id": "cjk_radicals_supplement"
+  },
+  {
+    "first": "0x2F00",
+    "last": "0x2FDF",
+    "name": "Kangxi Radicals",
+    "id": "kangxi_radicals"
+  },
+  {
+    "first": "0x2FF0",
+    "last": "0x2FFF",
+    "name": "Ideographic Description Characters",
+    "id": "ideographic_description_characters"
+  },
+  {
+    "first": "0x3000",
+    "last": "0x303F",
+    "name": "CJK Symbols and Punctuation",
+    "id": "cjk_symbols_and_punctuation"
+  },
+  {
+    "first": "0x3040",
+    "last": "0x309F",
+    "name": "Hiragana",
+    "id": "hiragana"
+  },
+  {
+    "first": "0x30A0",
+    "last": "0x30FF",
+    "name": "Katakana",
+    "id": "katakana"
+  },
+  {
+    "first": "0x3100",
+    "last": "0x312F",
+    "name": "Bopomofo",
+    "id": "bopomofo"
+  },
+  {
+    "first": "0x3130",
+    "last": "0x318F",
+    "name": "Hangul Compatibility Jamo",
+    "id": "hangul_compatibility_jamo"
+  },
+  {
+    "first": "0x3190",
+    "last": "0x319F",
+    "name": "Kanbun",
+    "id": "kanbun"
+  },
+  {
+    "first": "0x31A0",
+    "last": "0x31BF",
+    "name": "Bopomofo Extended",
+    "id": "bopomofo_extended"
+  },
+  {
+    "first": "0x31C0",
+    "last": "0x31EF",
+    "name": "CJK Strokes",
+    "id": "cjk_strokes"
+  },
+  {
+    "first": "0x31F0",
+    "last": "0x31FF",
+    "name": "Katakana Phonetic Extensions",
+    "id": "katakana_phonetic_extensions"
+  },
+  {
+    "first": "0x3200",
+    "last": "0x32FF",
+    "name": "Enclosed CJK Letters and Months",
+    "id": "enclosed_cjk_letters_and_months"
+  },
+  {
+    "first": "0x3300",
+    "last": "0x33FF",
+    "name": "CJK Compatibility",
+    "id": "cjk_compatibility"
+  },
+  {
+    "first": "0x3400",
+    "last": "0x4DBF",
+    "name": "CJK Unified Ideographs Extension A",
+    "id": "cjk_unified_ideographs_extension_a"
+  },
+  {
+    "first": "0x4DC0",
+    "last": "0x4DFF",
+    "name": "Yijing Hexagram Symbols",
+    "id": "yijing_hexagram_symbols"
+  },
+  {
+    "first": "0x4E00",
+    "last": "0x9FFF",
+    "name": "CJK Unified Ideographs",
+    "id": "cjk_unified_ideographs"
+  },
+  {
+    "first": "0xA000",
+    "last": "0xA48F",
+    "name": "Yi Syllables",
+    "id": "yi_syllables"
+  },
+  {
+    "first": "0xA490",
+    "last": "0xA4CF",
+    "name": "Yi Radicals",
+    "id": "yi_radicals"
+  },
+  {
+    "first": "0xA4D0",
+    "last": "0xA4FF",
+    "name": "Lisu",
+    "id": "lisu"
+  },
+  {
+    "first": "0xA500",
+    "last": "0xA63F",
+    "name": "Vai",
+    "id": "vai"
+  },
+  {
+    "first": "0xA640",
+    "last": "0xA69F",
+    "name": "Cyrillic Extended-B",
+    "id": "cyrillic_extended_b"
+  },
+  {
+    "first": "0xA6A0",
+    "last": "0xA6FF",
+    "name": "Bamum",
+    "id": "bamum"
+  },
+  {
+    "first": "0xA700",
+    "last": "0xA71F",
+    "name": "Modifier Tone Letters",
+    "id": "modifier_tone_letters"
+  },
+  {
+    "first": "0xA720",
+    "last": "0xA7FF",
+    "name": "Latin Extended-D",
+    "id": "latin_extended_d"
+  },
+  {
+    "first": "0xA800",
+    "last": "0xA82F",
+    "name": "Syloti Nagri",
+    "id": "syloti_nagri"
+  },
+  {
+    "first": "0xA830",
+    "last": "0xA83F",
+    "name": "Common Indic Number Forms",
+    "id": "common_indic_number_forms"
+  },
+  {
+    "first": "0xA840",
+    "last": "0xA87F",
+    "name": "Phags-pa",
+    "id": "phags_pa"
+  },
+  {
+    "first": "0xA880",
+    "last": "0xA8DF",
+    "name": "Saurashtra",
+    "id": "saurashtra"
+  },
+  {
+    "first": "0xA8E0",
+    "last": "0xA8FF",
+    "name": "Devanagari Extended",
+    "id": "devanagari_extended"
+  },
+  {
+    "first": "0xA900",
+    "last": "0xA92F",
+    "name": "Kayah Li",
+    "id": "kayah_li"
+  },
+  {
+    "first": "0xA930",
+    "last": "0xA95F",
+    "name": "Rejang",
+    "id": "rejang"
+  },
+  {
+    "first": "0xA960",
+    "last": "0xA97F",
+    "name": "Hangul Jamo Extended-A",
+    "id": "hangul_jamo_extended_a"
+  },
+  {
+    "first": "0xA980",
+    "last": "0xA9DF",
+    "name": "Javanese",
+    "id": "javanese"
+  },
+  {
+    "first": "0xA9E0",
+    "last": "0xA9FF",
+    "name": "Myanmar Extended-B",
+    "id": "myanmar_extended_b"
+  },
+  {
+    "first": "0xAA00",
+    "last": "0xAA5F",
+    "name": "Cham",
+    "id": "cham"
+  },
+  {
+    "first": "0xAA60",
+    "last": "0xAA7F",
+    "name": "Myanmar Extended-A",
+    "id": "myanmar_extended_a"
+  },
+  {
+    "first": "0xAA80",
+    "last": "0xAADF",
+    "name": "Tai Viet",
+    "id": "tai_viet"
+  },
+  {
+    "first": "0xAAE0",
+    "last": "0xAAFF",
+    "name": "Meetei Mayek Extensions",
+    "id": "meetei_mayek_extensions"
+  },
+  {
+    "first": "0xAB00",
+    "last": "0xAB2F",
+    "name": "Ethiopic Extended-A",
+    "id": "ethiopic_extended_a"
+  },
+  {
+    "first": "0xAB30",
+    "last": "0xAB6F",
+    "name": "Latin Extended-E",
+    "id": "latin_extended_e"
+  },
+  {
+    "first": "0xAB70",
+    "last": "0xABBF",
+    "name": "Cherokee Supplement",
+    "id": "cherokee_supplement"
+  },
+  {
+    "first": "0xABC0",
+    "last": "0xABFF",
+    "name": "Meetei Mayek",
+    "id": "meetei_mayek"
+  },
+  {
+    "first": "0xAC00",
+    "last": "0xD7AF",
+    "name": "Hangul Syllables",
+    "id": "hangul_syllables"
+  },
+  {
+    "first": "0xD7B0",
+    "last": "0xD7FF",
+    "name": "Hangul Jamo Extended-B",
+    "id": "hangul_jamo_extended_b"
+  },
+  {
+    "first": "0xD800",
+    "last": "0xDB7F",
+    "name": "High Surrogates",
+    "id": "high_surrogates"
+  },
+  {
+    "first": "0xDB80",
+    "last": "0xDBFF",
+    "name": "High Private Use Surrogates",
+    "id": "high_private_use_surrogates"
+  },
+  {
+    "first": "0xDC00",
+    "last": "0xDFFF",
+    "name": "Low Surrogates",
+    "id": "low_surrogates"
+  },
+  {
+    "first": "0xE000",
+    "last": "0xF8FF",
+    "name": "Private Use Area",
+    "id": "private_use_area"
+  },
+  {
+    "first": "0xF900",
+    "last": "0xFAFF",
+    "name": "CJK Compatibility Ideographs",
+    "id": "cjk_compatibility_ideographs"
+  },
+  {
+    "first": "0xFB00",
+    "last": "0xFB4F",
+    "name": "Alphabetic Presentation Forms",
+    "id": "alphabetic_presentation_forms"
+  },
+  {
+    "first": "0xFB50",
+    "last": "0xFDFF",
+    "name": "Arabic Presentation Forms-A",
+    "id": "arabic_presentation_forms_a"
+  },
+  {
+    "first": "0xFE00",
+    "last": "0xFE0F",
+    "name": "Variation Selectors",
+    "id": "variation_selectors"
+  },
+  {
+    "first": "0xFE10",
+    "last": "0xFE1F",
+    "name": "Vertical Forms",
+    "id": "vertical_forms"
+  },
+  {
+    "first": "0xFE20",
+    "last": "0xFE2F",
+    "name": "Combining Half Marks",
+    "id": "combining_half_marks"
+  },
+  {
+    "first": "0xFE30",
+    "last": "0xFE4F",
+    "name": "CJK Compatibility Forms",
+    "id": "cjk_compatibility_forms"
+  },
+  {
+    "first": "0xFE50",
+    "last": "0xFE6F",
+    "name": "Small Form Variants",
+    "id": "small_form_variants"
+  },
+  {
+    "first": "0xFE70",
+    "last": "0xFEFF",
+    "name": "Arabic Presentation Forms-B",
+    "id": "arabic_presentation_forms_b"
+  },
+  {
+    "first": "0xFF00",
+    "last": "0xFFEF",
+    "name": "Halfwidth and Fullwidth Forms",
+    "id": "halfwidth_and_fullwidth_forms"
+  },
+  {
+    "first": "0xFFF0",
+    "last": "0xFFFF",
+    "name": "Specials",
+    "id": "specials"
+  }
+]

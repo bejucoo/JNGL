@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>tagz web v0.1</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/pushbar.min.css">
+  <script src="./js/p5.min.js"></script>
+  <script src="./js/pushbar.min.js"></script>
+</head>
+
+<body>
+  <div class="top_bar">
+    <a href="https://bejuco.co/" target="_blank" rel="noopener noreferrer">
+      <img id="menu_logo" src="https://bejuco.co/img/logo.png" alt="bejuco_logo" title="bejuco.co">
+    </a>
+  </div>
+
+  <div id="menu" data-pushbar-id="mypushbar1" data-pushbar-direction="bottom">
+    <p>
+      TAGZ WEB v0.1
+      <br><br>
+      <a class="link_normal" href="./LICENSE.md">LICENSE</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="link_normal" href="https://github.com/bejucoo/JNGL">GITHUB</a>
+      <br><br><br>	
+      INSTRUCTIONS:
+      <br><br>
+      1. Mouse click to create a new tag.
+      <br>
+      2. Press 's' to save a .jpg of the canvas.
+      <br>
+      3. Colors, stroke style and more adjustments in the index.js file.
+    </p>
+  </div>
+  
+  <footer class="pushbar_main_content"> 
+    <p id="menu_open" data-pushbar-target="mypushbar1">INFO AND INSTRUCTIONS</p>
+  </footer>
+  
+  <script src="./js/tagz_web_01.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+first,last,name,id
+0x0000,0x007F,Basic Latin,basic_latin
+0x0080,0x00FF,Latin-1 Supplement,latin_1_supplement
+0x0100,0x017F,Latin Extended-A,latin_extended_a
+0x0180,0x024F,Latin Extended-B,latin_extended_b
+0x0250,0x02AF,IPA Extensions,ipa_extensions
+0x02B0,0x02FF,Spacing Modifier Letters,spacing_modifier_letters
+0x0300,0x036F,Combining Diacritical Marks,combining_diacritical_marks
+0x0370,0x03FF,Greek and Coptic,greek_and_coptic
+0x0400,0x04FF,Cyrillic,cyrillic
+0x0500,0x052F,Cyrillic Supplement,cyrillic_supplement
+0x0530,0x058F,Armenian,armenian
+0x0590,0x05FF,Hebrew,hebrew
+0x0600,0x06FF,Arabic,arabic
+0x0700,0x074F,Syriac,syriac
+0x0750,0x077F,Arabic Supplement,arabic_supplement
+0x0780,0x07BF,Thaana,thaana
+0x07C0,0x07FF,NKo,nko
+0x0800,0x083F,Samaritan,samaritan
+0x0840,0x085F,Mandaic,mandaic
+0x0860,0x086F,Syriac Supplement,syriac_supplement
+0x08A0,0x08FF,Arabic Extended-A,arabic_extended_a
+0x0900,0x097F,Devanagari,devanagari
+0x0980,0x09FF,Bengali,bengali
+0x0A00,0x0A7F,Gurmukhi,gurmukhi
+0x0A80,0x0AFF,Gujarati,gujarati
+0x0B00,0x0B7F,Oriya,oriya
+0x0B80,0x0BFF,Tamil,tamil
+0x0C00,0x0C7F,Telugu,telugu
+0x0C80,0x0CFF,Kannada,kannada
+0x0D00,0x0D7F,Malayalam,malayalam
+0x0D80,0x0DFF,Sinhala,sinhala
+0x0E00,0x0E7F,Thai,thai
+0x0E80,0x0EFF,Lao,lao
+0x0F00,0x0FFF,Tibetan,tibetan
+0x1000,0x109F,Myanmar,myanmar
+0x10A0,0x10FF,Georgian,georgian
+0x1100,0x11FF,Hangul Jamo,hangul_jamo
+0x1200,0x137F,Ethiopic,ethiopic
+0x1380,0x139F,Ethiopic Supplement,ethiopic_supplement
+0x13A0,0x13FF,Cherokee,cherokee
+0x1400,0x167F,Unified Canadian Aboriginal Syllabics,unified_canadian_aboriginal_syllabics
+0x1680,0x169F,Ogham,ogham
+0x16A0,0x16FF,Runic,runic
+0x1700,0x171F,Tagalog,tagalog
+0x1720,0x173F,Hanunoo,hanunoo
+0x1740,0x175F,Buhid,buhid
+0x1760,0x177F,Tagbanwa,tagbanwa
+0x1780,0x17FF,Khmer,khmer
+0x1800,0x18AF,Mongolian,mongolian
+0x18B0,0x18FF,Unified Canadian Aboriginal Syllabics Extended,unified_canadian_aboriginal_syllabics_extended
+0x1900,0x194F,Limbu,limbu
+0x1950,0x197F,Tai Le,tai_le
+0x1980,0x19DF,New Tai Lue,new_tai_lue
+0x19E0,0x19FF,Khmer Symbols,khmer_symbols
+0x1A00,0x1A1F,Buginese,buginese
+0x1A20,0x1AAF,Tai Tham,tai_tham
+0x1AB0,0x1AFF,Combining Diacritical Marks Extended,combining_diacritical_marks_extended
+0x1B00,0x1B7F,Balinese,balinese
+0x1B80,0x1BBF,Sundanese,sundanese
+0x1BC0,0x1BFF,Batak,batak
+0x1C00,0x1C4F,Lepcha,lepcha
+0x1C50,0x1C7F,Ol Chiki,ol_chiki
+0x1C80,0x1C8F,Cyrillic Extended-C,cyrillic_extended_c
+0x1C90,0x1CBF,Georgian Extended,georgian_extended
+0x1CC0,0x1CCF,Sundanese Supplement,sundanese_supplement
+0x1CD0,0x1CFF,Vedic Extensions,vedic_extensions
+0x1D00,0x1D7F,Phonetic Extensions,phonetic_extensions
+0x1D80,0x1DBF,Phonetic Extensions Supplement,phonetic_extensions_supplement
+0x1DC0,0x1DFF,Combining Diacritical Marks Supplement,combining_diacritical_marks_supplement
+0x1E00,0x1EFF,Latin Extended Additional,latin_extended_additional
+0x1F00,0x1FFF,Greek Extended,greek_extended
+0x2000,0x206F,General Punctuation,general_punctuation
+0x2070,0x209F,Superscripts and Subscripts,superscripts_and_subscripts
+0x20A0,0x20CF,Currency Symbols,currency_symbols
+0x20D0,0x20FF,Combining Diacritical Marks for Symbols,combining_diacritical_marks_for_symbols
+0x2100,0x214F,Letterlike Symbols,letterlike_symbols
+0x2150,0x218F,Number Forms,number_forms
+0x2190,0x21FF,Arrows,arrows
+0x2200,0x22FF,Mathematical Operators,mathematical_operators
+0x2300,0x23FF,Miscellaneous Technical,miscellaneous_technical
+0x2400,0x243F,Control Pictures,control_pictures
+0x2440,0x245F,Optical Character Recognition,optical_character_recognition
+0x2460,0x24FF,Enclosed Alphanumerics,enclosed_alphanumerics
+0x2500,0x257F,Box Drawing,box_drawing
+0x2580,0x259F,Block Elements,block_elements
+0x25A0,0x25FF,Geometric Shapes,geometric_shapes
+0x2600,0x26FF,Miscellaneous Symbols,miscellaneous_symbols
+0x2700,0x27BF,Dingbats,dingbats
+0x27C0,0x27EF,Miscellaneous Mathematical Symbols-A,miscellaneous_mathematical_symbols_a
+0x27F0,0x27FF,Supplemental Arrows-A,supplemental_arrows_a
+0x2800,0x28FF,Braille Patterns,braille_patterns
+0x2900,0x297F,Supplemental Arrows-B,supplemental_arrows_b
+0x2980,0x29FF,Miscellaneous Mathematical Symbols-B,miscellaneous_mathematical_symbols_b
+0x2A00,0x2AFF,Supplemental Mathematical Operators,supplemental_mathematical_operators
+0x2B00,0x2BFF,Miscellaneous Symbols and Arrows,miscellaneous_symbols_and_arrows
+0x2C00,0x2C5F,Glagolitic,glagolitic
+0x2C60,0x2C7F,Latin Extended-C,latin_extended_c
+0x2C80,0x2CFF,Coptic,coptic
+0x2D00,0x2D2F,Georgian Supplement,georgian_supplement
+0x2D30,0x2D7F,Tifinagh,tifinagh
+0x2D80,0x2DDF,Ethiopic Extended,ethiopic_extended
+0x2DE0,0x2DFF,Cyrillic Extended-A,cyrillic_extended_a
+0x2E00,0x2E7F,Supplemental Punctuation,supplemental_punctuation
+0x2E80,0x2EFF,CJK Radicals Supplement,cjk_radicals_supplement
+0x2F00,0x2FDF,Kangxi Radicals,kangxi_radicals
+0x2FF0,0x2FFF,Ideographic Description Characters,ideographic_description_characters
+0x3000,0x303F,CJK Symbols and Punctuation,cjk_symbols_and_punctuation
+0x3040,0x309F,Hiragana,hiragana
+0x30A0,0x30FF,Katakana,katakana
+0x3100,0x312F,Bopomofo,bopomofo
+0x3130,0x318F,Hangul Compatibility Jamo,hangul_compatibility_jamo
+0x3190,0x319F,Kanbun,kanbun
+0x31A0,0x31BF,Bopomofo Extended,bopomofo_extended
+0x31C0,0x31EF,CJK Strokes,cjk_strokes
+0x31F0,0x31FF,Katakana Phonetic Extensions,katakana_phonetic_extensions
+0x3200,0x32FF,Enclosed CJK Letters and Months,enclosed_cjk_letters_and_months
+0x3300,0x33FF,CJK Compatibility,cjk_compatibility
+0x3400,0x4DBF,CJK Unified Ideographs Extension A,cjk_unified_ideographs_extension_a
+0x4DC0,0x4DFF,Yijing Hexagram Symbols,yijing_hexagram_symbols
+0x4E00,0x9FFF,CJK Unified Ideographs,cjk_unified_ideographs
+0xA000,0xA48F,Yi Syllables,yi_syllables
+0xA490,0xA4CF,Yi Radicals,yi_radicals
+0xA4D0,0xA4FF,Lisu,lisu
+0xA500,0xA63F,Vai,vai
+0xA640,0xA69F,Cyrillic Extended-B,cyrillic_extended_b
+0xA6A0,0xA6FF,Bamum,bamum
+0xA700,0xA71F,Modifier Tone Letters,modifier_tone_letters
+0xA720,0xA7FF,Latin Extended-D,latin_extended_d
+0xA800,0xA82F,Syloti Nagri,syloti_nagri
+0xA830,0xA83F,Common Indic Number Forms,common_indic_number_forms
+0xA840,0xA87F,Phags-pa,phags_pa
+0xA880,0xA8DF,Saurashtra,saurashtra
+0xA8E0,0xA8FF,Devanagari Extended,devanagari_extended
+0xA900,0xA92F,Kayah Li,kayah_li
+0xA930,0xA95F,Rejang,rejang
+0xA960,0xA97F,Hangul Jamo Extended-A,hangul_jamo_extended_a
+0xA980,0xA9DF,Javanese,javanese
+0xA9E0,0xA9FF,Myanmar Extended-B,myanmar_extended_b
+0xAA00,0xAA5F,Cham,cham
+0xAA60,0xAA7F,Myanmar Extended-A,myanmar_extended_a
+0xAA80,0xAADF,Tai Viet,tai_viet
+0xAAE0,0xAAFF,Meetei Mayek Extensions,meetei_mayek_extensions
+0xAB00,0xAB2F,Ethiopic Extended-A,ethiopic_extended_a
+0xAB30,0xAB6F,Latin Extended-E,latin_extended_e
+0xAB70,0xABBF,Cherokee Supplement,cherokee_supplement
+0xABC0,0xABFF,Meetei Mayek,meetei_mayek
+0xAC00,0xD7AF,Hangul Syllables,hangul_syllables
+0xD7B0,0xD7FF,Hangul Jamo Extended-B,hangul_jamo_extended_b
+0xD800,0xDB7F,High Surrogates,high_surrogates
+0xDB80,0xDBFF,High Private Use Surrogates,high_private_use_surrogates
+0xDC00,0xDFFF,Low Surrogates,low_surrogates
+0xE000,0xF8FF,Private Use Area,private_use_area
+0xF900,0xFAFF,CJK Compatibility Ideographs,cjk_compatibility_ideographs
+0xFB00,0xFB4F,Alphabetic Presentation Forms,alphabetic_presentation_forms
+0xFB50,0xFDFF,Arabic Presentation Forms-A,arabic_presentation_forms_a
+0xFE00,0xFE0F,Variation Selectors,variation_selectors
+0xFE10,0xFE1F,Vertical Forms,vertical_forms
+0xFE20,0xFE2F,Combining Half Marks,combining_half_marks
+0xFE30,0xFE4F,CJK Compatibility Forms,cjk_compatibility_forms
+0xFE50,0xFE6F,Small Form Variants,small_form_variants
+0xFE70,0xFEFF,Arabic Presentation Forms-B,arabic_presentation_forms_b
+0xFF00,0xFFEF,Halfwidth and Fullwidth Forms,halfwidth_and_fullwidth_forms
+0xFFF0,0xFFFF,Specials,specials
